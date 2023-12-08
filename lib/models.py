@@ -13,7 +13,7 @@ Base = declarative_base()
 
 class Company(Base):
     __tablename__ = 'companies'
-@@ -16,14 +11,49 @@ class Company(Base):
+class Company(Base):
     name = Column(String())
     founding_year = Column(Integer())
 
